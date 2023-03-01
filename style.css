@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    padding: 20px;
+    margin: 20px;
+}
+
+ul{
+    margin-left: 35px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.col-1{
+    float: left;
+    width: 30%;
+    font-weight: 500;
+}
+
+h2{
+    color: white;
+    background-color: rgb(112, 107, 107);
+    font-size: 24px;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+table,td,th{
+    margin: 10px;
+    border: 1px solid rgb(94, 94, 136);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td,th{
+    padding: 10 8;
+}
+
+th{
+    background: grey;
+}
+
+th:nth-child(1){
+    width: 15%;
+}
+
+th:nth-child(2){
+    width: 20%;
+}
+
+th:nth-child(3){
+    width: 30%;
+}
+
+th:nth-child(4){
+    width: 15%;
+}
+
+th:nth-child(5){
+    width: 20%;
+}
+
+tr:nth-child(3){
+    background-color: rgb(219, 214, 214);
+}
+
+tr:hover{
+    background: rgb(182, 164, 164);
+}
+
+.sign{
+    float: right;
+    text-transform: uppercase;
+    margin-right: 50px;
+}
+
+a:hover{
+    background: #b1b1b2;
+}
